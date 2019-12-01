@@ -1,14 +1,18 @@
-<Insert Student Name Here>
-GUID:
-Date:
+Ewan Spence
+GUID: 2239214s
+Date: 1/12/2019
 200 words max
 Some questions to consider:
 
 Does your code build properly with "stack build"?
+Yes, it fully compiles with no warnings or errors
 
-Are there any parts of the specification you did not implement in part
-A?
+Are there any parts of the specification you did not implement in 
+part A?
+No, although handling of a bad url waits for the connection timeout, 
+which makes the test last about 1.5 minutes
 
 For the 'stretch' part B, which libraries did you use and what kind of
 output did you generate?
-
+I attempted to use the Google Translate API, but ran into several 
+issues that I didn't have time to solve

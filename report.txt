@@ -1,30 +1,43 @@
-<Insert Student Name Here>
-GUID:
-Date:
+Ewan Spence
+GUID: 2239214s
+Date: 01/12/2019
 
 -- write what you want in here -- this is just some filler text --
 500 words max
 
 For this report, I am comparing my experiences with Haskell and
-Python.  In particular, I have used the Scalpel scraping library in
-Haskell, and the equivalent scrapy library in Python.
+imperative languages such as Java and Python. I have no experience
+with any Python or Java equivalent scraping library.
 
-Code size: Functional code in general (and Haskell in particular) is
-  highly concise. This comes from powerful features like higher order
-  functions on lists- much more concise than for/while loop
-  control-flow structures in Python. Also, high-level operators and
-  functions are provided in the standard libraries (like Data.List).
-
-
-Code readability: While Haskell code is particularly dense, it can be
-  difficult to read sometimes. Meaningful variable names might help.
+Code size: The functions I wrote for this coursework were all very
+    short and concise, which drastically improves the readibility of
+    the code. This is due to Haskell's easy recursion and syntactic
+    sugar like guards. Despite this, I felt slightly restricted to 
+    the length/functionality of my functions. Some may see this as
+    a good thing (encouraging modularisation, FP procedures), but
+    I found it slightly impeding.
 
 
-Code maintainability:
-  Bug fixes? Comments?
+Code readability: The density of the code can be confusing, although
+    I particularly like Haskell's function signatures and the internal
+    consistency of Monad operations (IO's return and <- operations
+    especially). Haskell's syntactic sugar can occasionally lead to
+    confusion; e.g. the do, where, and let keywords have similar but
+    crucially different purposes, that can take a while to get used to.
 
 
-Toolchain support: Does stack work as well as pip? Is there as much
-  online support for Haskell as for Python? Does this affect developer
-  productivity at all?
+Code maintainability: As mentioned, the 'forced' modularity of code
+    is slightly restrictive, but extremely helpful in keeping code
+    to a high standard. This is also another strong point for 
+    Haskell's type system. Navigating the difference between
+    Maybe String, IO (), IO (Nothing) - At one point in my trials 
+    my expected return type was "Maybe IO (Maybe IO(Maybe String))"
+    - helped me build appropriate and relevant functions
 
+
+Toolchain support: I struggled with Stack, and found little online 
+    resource to help. As an environment, I appreciate its simplicity
+    and intuitive commands, but as a package manager, it falls quite
+    short. For example, trying to set up Google Translate stack told
+    me to add two different API keys to my package.yaml, change my
+    .stack/config.yaml file, and I *still* had no success.
